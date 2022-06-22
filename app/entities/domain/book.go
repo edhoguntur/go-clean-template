@@ -1,4 +1,4 @@
-package model
+package domain
 
 // Books is a slice of Book
 type Books []Book

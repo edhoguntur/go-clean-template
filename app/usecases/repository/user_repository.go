@@ -2,16 +2,16 @@ package usecases
 
 import (
 	"context"
-	"go-clean-template/app/domain/model"
+	"go-clean-template/app/entities/domain"
 )
 
 type UserRepositoryImpl struct {
 }
 
-func (u *UserRepositoryImpl) SignUp(ctx context.Context, user model.User) error {
+func (u *UserRepositoryImpl) SignUp(ctx context.Context, user domain.User) error {
 	return nil
 }
 
-func (u *UserRepositoryImpl) SignIn(ctx context.Context, email, password string) (*model.Book, error) {
+func (u *UserRepositoryImpl) SignIn(ctx context.Context, email, password string) (*domain.Book, error) {
 	return nil, nil
 }
